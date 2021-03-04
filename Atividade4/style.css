@@ -1,0 +1,89 @@
+
+body {
+    background: #02331e url('fundo2.png');
+      background-repeat: no-repeat;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+  sans-serif;
+  line-height: 1.5;
+  /*background-size: cover;
+      background-attachment: scroll;*/
+  }
+  
+  
+  .container {
+  margin: 0 auto;
+  width: 960px;
+  }
+  
+  article {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-color: #CCC #999 #999 #CCC;
+  margin-bottom: 20px;
+  padding: 10px; /* espaçamento entre a borda e o título */
+  }
+  
+  
+  article h2 {
+  border-bottom: 1px dashed #0A1566;
+  margin: 0;
+  }
+  
+  article img {
+  border: 1px solid #0b6792;
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 2px;
+  width: 160px;
+  height: 160px;
+  }
+  
+  article a { /* mudando a cor dos links para negrito */
+  color: #2C88A7;
+  font-weight: bold;
+  }
+  
+  header h1 a {
+  color: #d9ffd9;
+  text-decoration: none;
+  margin-left:250px;
+  }
+  
+  header h1 a:hover { /* mudando a cor do link quando posicionado */
+  background-color: #464646;
+  color: #FFF;
+  }
+  
+  .clear { /* para a imagem nao "ficar fora" quando usa o float */
+  clear: both;
+  }
+  
+  footer {
+  font-size: 12px;
+  text-align: center;
+  }
+  
+  section { /* para a barra lateral lista e titulo */
+  float: left;
+  width: 660px;
+  }
+  
+  aside {
+  background-color: #4ef8bf;
+  border: 1px solid #35b68f;
+  padding: 10px;
+  float: right;
+  width: 260px;
+  }
+  
+  aside h3 {
+  font-size: 14px;
+  margin-top: 0;
+  }
+  
+  aside ol {
+  font-size: 12px;
+  }
+  
+  
+  
