@@ -3,21 +3,26 @@ body{
 }
 
 .navbar {
-    background-color: rgb(78, 26, 145);
+    background-color: rgba(101, 12, 218, 0.637);
     color: white;
 }
 
-.quem-somos{
-    background-color: rgb(71, 20, 20);
-    color: whitesmoke;
+.quem-sou{
+    background-color:turquoise;
+    color: midnightblue;
 }
 
 .margin{
     padding-top: 30px;
     padding-bottom: 50px;
 }
-.parceiros{
-    background-color: rgb(34, 72, 177);
+.tragetoria{
+    background-color:powderblue;
+    color: black;
+}
+
+.contato{
+    background-color: crimson;
     color: white;
 }
 .bg-footer{
