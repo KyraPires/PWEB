@@ -1,86 +1,255 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Valquiria Pires"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
 
-<head class=container>
-    <meta charset="UTF-8">
-    <meta name="viewport" contet="width=device-width, inicial-scale=1.0">
-    <meta http-equip="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Portilfolio da Valquiria</title>
+    <link rel="shortcut icon" href="./img/Logo.png">
+    
+    <title>Valquiria Pires</title>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light margin">
-        <a class="navbar-brand" href="#">
-            <img src="images/itsme.gif" width="80">
-        </a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#quemsou">Quem sou eu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#About">Minha tragetória</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Contato">Contato</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
-    <section id="quemsou">
-        <div class="container-fluid quem-sou text-center margin">
-            <h3>Quem sou eu:</h3>
-            <img src="images/IMG_2830_menor.JPG" class= "rounded-circle" width="300" height="300">
-            <h3>Uma bióloga orientada a dados!</h3>
-        </div>
-    </section>
-
-    
-    <section id="About">
-        <div class="container-fluid tragetoria text-center margin">
-            <h2>Minha tragetória</h2>
-            <br>
-            <div>
-                <p>texto1</p>
-                <p>texto2</p>
+    <!---------------- Navegação ------------------>
+    <header>
+        <nav class="navbar shadow-sm navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/itsme.gif" width="50" height="50" alt="eu" >
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Início</a>
+                    </li>                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience-timeline">Experiência</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#perfil">Contatos</a>
+                    </li>                    
+                    </ul>
+                </div>
             </div>
-            
-        </div>
-    </section>
-    <section id="Contato">       
-        <div class="d-flex contato justify-content-center">
-            <h2>Contato</h2>          
+        </nav>
+    </header>
+
+    <!---------------- Página ------------------>
+    <main role="main" id="main">
         
-            <div>
-                <ul>
-                    <li>LinkedIn</li>
-                    <li>Instagram</li>
-                    <li>Github</li>
-                </ul>
+    </main>
+        <section class="home_banner_area">
+            <div class="container box_1620">
+                <div class="banner_inner d-flex align-items-center">
+                    <div class="banner_content">
+                        <div class="media">
+                            <div class="d-flex">
+                                <img src="./img/perfil.png" alt="Valquiria perfil" style="border-radius: 10px; width: 400px;">
+                            </div>
+                            <div class="media-body" id="perfil">
+                                <div class="personal_text">
+                                    <h1>Valquíria Pires</h1>
+                                    <h4 id="pt">Estagiária na área de dados na XP Inc., estudante de análise e desenvolvimento de sistemas na Fatec e PyLady de Sorocaba.
+                                    </h4>
+                                    
+                                    <p id="pt">Bióloga e mestra em Sustentabilidade na Gestão Ambiental, estudando Análise e Desenvolvimento de Sistemas pela Fatec. 
+                                        Estagiária na área de dados pelo programa XData Journey que faz parte de uma das iniciativas de Diversidade e Inclusão da XP 
+                                        de visa diminuir o gap de gênero que existe na área de dados. Focando na aprendizagem de todas as áreas de dados. 
+                                        Acredita que a ciência e tecnologia podem transformar a vida das pessoas e para contribuir com isso é participante da comunidade 
+                                        PyLadies e co-organizadora do evento RanchoDev.</p>
+                                   
+                                    <ul class="list personal_social" style="padding-top: 30px; text-align: center;">
+                                        <li>
+                                            <a href="https://github.com/KyraPires" target="_blank" title="Github" rel="noopener noreferrer" aria-label="Github">
+                                                <i class="fa fa-github" aria-hidden="true"></i>
+                                            </a>
+                                        </li>                                       
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/valquiriapires01/" target="_blank" title="Linkedin" rel="noopener noreferrer" aria-label="Linkedin">
+                                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:pires.vro@gmail.com" target="_blank" title="E-mail" rel="noopener noreferrer" aria-label="E-mail">
+                                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>    
-       
-    </section>
+        </section>
+	<!--================End Home Banner Area =================-->
+<!--================Welcome Area =================-->
+<section class="welcome_area p_120" id="experience">
+    <div class="container">
+        <div class="row welcome_inner">
+            <div class="col-lg-6">
+                <div class="welcome_text">
+                    <h2 id="pt">Competências</h2>
+                    <p id="pt">Tenho experiência nas áreas da Ciência e Tecnologia. Durante o mestrado atuei com Geotecnologias e análise de dados estatísticos para o
+                         desenvolvimento de pesquisas direcionadas a tomadores de decisão. Atualmente foco meus estudos em tecnologias voltada à área de Ciência de Dados. 
+                         Tenho experiência acadêmica em C, C#, Java e SQL. </p> 
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="tools_expert">
+                    <div class="skill_main">
+                        <h4>O que estou estudando:</h4>                            
+                        <div class="skill_item">               
+                            <br>Python</br>                            
+                        </div>
+                        <div class="skill_item">
+                            <br>SQL</br>
+                        </div>
+                        <div class="skill_item">
+                            <br>Visualização de Dados</br>
+                        </div>
+                        <div class="skill_item">
+                            <br>Estatística</br>
+                        </div>
+                        <div class="skill_item">
+                            <br>Machine Learning</br>
+                        </div>
 
+                        <a href="https://github.com/KyraPires" id="pt" target="_blank"><button
+                                class="btn btn-dark github">Veja minha evolução no Gihub</button></a>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Welcome Area =================-->
+<!--================Start Timeline Area =================-->
+
+<section class="welcome_area p_120" id="experience-timeline">
+    <div class="container">
+        <div class="page-header">
+            <span id="pt">
+                <ul class="nav nav-tabs text-center" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active btn btn-outline-dark" data-toggle="tab" href="#home" role="tab"
+                            aria-controls="home" aria-selected="true" >Experiência</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-dark" data-toggle="tab" href="#profile" role="tab"
+                            aria-controls="profile" aria-selected="false" id="sociais">Trabalhos sociais</a>
+                    </li>
+                </ul>
+            </span>
+
+        <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <ul class="timeline">
+            <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Business Analytics - XP Inc.</h4>
+                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Março, 2021- Atualmente</small></p>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Estagiária do programa XData Journey vivenciando todas as áreas de Dados da empresa, passando por Data Analytics, Data Engineering e Data Science.</p>
+                    <p> Atividades do programa: Análise de dados da empresa; criação de modelos preditivos; interface com áreas de negócio;
+                         criação de dashboards; acompanhamento do uso de Python para automações e tratamento de dados; ingestão de dados; acompanhamento
+                         com ETL para extração, transformação e carregamento de dados.</p>
+                  </div>
+                </div>
+              </li>
+            
+            <li class="timeline-badge">
+              <div class="timeline-badge"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Database Analyst - Agiw Sistemas</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Março,2020 - Outubro,2020</small></p>
+                </div>
+                <div class="timeline-body">
+                    <p>Estágio na área de conversão de banco de dados</p>
+                    <p> Atribuições: Análise e limpeza de base de dados para conversão para sistemas ADP;
+                     extração de tabelas do banco de dados do cliente com programação Delphi;
+                     manipulação de dados em linguagem Delphi e Excel.</p>                      
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-badge"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Estágio em Geoprocessamento</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Outubro, 2015- Março, 2016</small></p>
+
+                </div>
+                <div class="timeline-body">
+                  <p>Análise de dados ambientais em ambiente SIG de áreas de interesse para o estabelecimento de Unidade de Conservação para a 
+                      proteção dos mananciais do município de Araçoiaba da Serra, São Paulo.</p>                    
+                </div>
+              </div>
+            </li>
+            
+        </ul>
+    </div>
+            <!-- Trabalhos sociais -->
+
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                <div class="row">
+                    <div class="col-md-6 offset-md-5">
+                        <div class="timeline-panel">
+                        <ul class="timeline-profile">
+                            <li>
+                                <a href="https://pyladiessorocaba.github.io/">Co-organizadora PyLadies Sorocaba</a>
+                                <p><a class="float-right">Novembro,2020 - Atualmente</a></p>
+                            </li>
+                            <li>
+                                <a href="https://rancho.dev/">Co-organizadora do RanchoDev - responsável pelo C4P</a>
+                                <p><a class="float-right">Edição 2021</a></p>
+                            </li>  
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=fFXSKKUo_tc">Integrante do grupo de Diversidade e Inclusão da XP Inc: MLHR3</a>
+                                <p><a class="float-right">Atualmente</a></p>
+                            </li>
+                            <li>
+                                <a target="_blank" >Educadora Ambiental SOS Mata Atlântica</a>
+                                <p><a class="float-right">Setembro, 2018 - Junho, 2019</a></p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>               
+            </div>
+</section>
+<!--================End Timeline Area =================-->
+    <!--================Start footer Area =================-->
+    <footer class="footer">
+        <script language="Javascript">  
+            document.write("© 2021 Valquiria Pires")
+        </script>			        
+    </footer>
+        <!--================End footer Area =================-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    <script>
+        $(function(){
+            $('.nav-tabs a[href="#profle"]').tab('show')
+
+        });
+        </script>
 </body>
-
-<footer class="container-fluid bg-footer text-center bg-footer margin">
-    <p>Desenvolvido por Valquiria Pires</p>
-    <h4>Localização</h4>
-    <h5>Sorocaba-SP</h5>
-    <h6>Copyright 2021</h6>
-  
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</footer>
-
-
-
-
 </html>
